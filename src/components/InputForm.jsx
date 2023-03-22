@@ -63,7 +63,7 @@ const InputForm = () => {
         </div>
         <div>
           <label className="block" htmlFor="twitteridlabel">
-            twitterID:
+            twitterID（URL）:
           </label>
           <input
             className=" w-full shadow appearance-none border rounded-full py-2 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
