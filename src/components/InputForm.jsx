@@ -99,7 +99,7 @@ const InputForm = () => {
             onChange={(e) => setNickName(e.target.value)}
             type="text"
             name="nickname"
-            placeholder=" あだ名"
+            placeholder="あだ名"
             id="nicknamelabel"
             value={nickname}
             required
