@@ -51,11 +51,11 @@ const InputForm = () => {
             twitter:
           </label>
           <input
-            className=" w-full shadow appearance-none border rounded-full py-2 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            className=" w-full shadow appearance-none rounded-xl py-2 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             onChange={(e) => setTwitterName(e.target.value)}
             type="text"
             name="twittername"
-            placeholder="twitter名"
+            placeholder=" twitter名"
             id="twitterlabel"
             value={twittername}
             required
@@ -66,11 +66,11 @@ const InputForm = () => {
             twitterID（URL）:
           </label>
           <input
-            className=" w-full shadow appearance-none border rounded-full py-2 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            className=" w-full shadow appearance-none rounded-xl py-2 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             onChange={(e) => setTwitterId(e.target.value)}
             type="text"
             name="twitterid"
-            placeholder="https://twitter.com/"
+            placeholder=" https://twitter.com/"
             id="twitteridlabel"
             value={twitterid}
           />
@@ -80,11 +80,11 @@ const InputForm = () => {
             PSID:
           </label>
           <input
-            className=" w-full shadow appearance-none border rounded-full py-2 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            className=" w-full shadow appearance-none rounded-xl py-2 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             onChange={(e) => setPsId(e.target.value)}
             type="text"
             name="psid"
-            placeholder="ps名"
+            placeholder=" ps名"
             id="pslabel"
             value={psid}
             required
@@ -95,11 +95,11 @@ const InputForm = () => {
             ニックネーム:
           </label>
           <input
-            className=" w-full shadow appearance-none border rounded-full py-2 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            className=" w-full shadow appearance-none rounded-xl py-2 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             onChange={(e) => setNickName(e.target.value)}
             type="text"
             name="nickname"
-            placeholder="あだ名"
+            placeholder=" あだ名"
             id="nicknamelabel"
             value={nickname}
             required
